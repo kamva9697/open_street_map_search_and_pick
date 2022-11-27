@@ -138,20 +138,6 @@ class _OpenStreetMapSearchAndPickState
               ),
             ],
           )),
-          Positioned(
-              top: MediaQuery.of(context).size.height * 0.5,
-              left: 0,
-              right: 0,
-              child: IgnorePointer(
-                child: Center(
-                  child: StatefulBuilder(builder: (context, setState) {
-                    return Text(
-                      _searchController.text,
-                      textAlign: TextAlign.center,
-                    );
-                  }),
-                ),
-              )),
           Positioned.fill(
               child: IgnorePointer(
             child: Center(
